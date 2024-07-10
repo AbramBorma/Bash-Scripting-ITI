@@ -1,0 +1,10 @@
+#! /usr/bin/bash
+: <<'Q1'
+
+1. Create a script that asks for user name then send a greeting to him.
+
+Q1
+
+read -p "Enter your name: " name
+echo "Welcome $name"
+
